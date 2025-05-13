@@ -1,0 +1,175 @@
+/* Reset ve font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #f8c146 !important; /* istersen hover rengi (altın sarısı) */
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #030ee4;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header,
+footer {
+    background-color: #800000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+h1,
+h2 {
+    color: #82c8fc;
+    margin-bottom: 10px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #670b2b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #8b1c3a;
+}
+
+#hata {
+    color: red;
+    margin-top: 10px;
+}
+.arkaplan{background-color: #800000;}
+.yazi{color: white;}
+
+
+        canvas {
+            border: 1px solid #000;
+            margin-top: 20px;
+        }
+
+        #scoreboard {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        button:active {
+            background-color: #1e7e34;
+        }
+        #gameCanvas {
+            display: block;
+            margin: 0 auto;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            max-width: 100%;
+            height: auto;
+        }
+        #scoreboard {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #restartButton {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+            background-color: #004080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #restartButton:hover {
+            background-color: #003366;
+        }
+        @media (max-width: 768px) {
+            h3 {
+                font-size: 2rem;
+            }
+            #gameCanvas {
+                width: 100% !important;
+                height: auto;
+            }
+        }
+        .card img {
+      height: 250px;
+      object-fit: cover;
+    }
+    .iletisim-kutusu {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+    img.kulup-foto {
+      width: 50%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .oyuncu-kart {
+      transition: transform 0.3s ease;
+    }
+    .oyuncu-kart:hover {
+      transform: scale(1.05);
+    }
